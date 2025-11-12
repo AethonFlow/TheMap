@@ -1,0 +1,17 @@
+{
+  "aspects": {
+    "gewinn": 0.071,
+    "ethik": 0.833,
+    "nachhalt": 0.6,
+    "prestige": 0.706
+  },
+  "H": 0.393,
+  "state_x": {
+    "feature_weight": 0.6,
+    "price_idx": 0.6
+  },
+  "state_p": {
+    "budget_alloc": 0.5
+  },
+  "go": false
+}

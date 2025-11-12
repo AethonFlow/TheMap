@@ -1,0 +1,40 @@
+{
+  "scored_campaigns": [
+    {
+      "name": "Expedition & Komfort",
+      "hook": "Komfortabel ans Ende der Welt",
+      "channel": [
+        "Search",
+        "Video"
+      ],
+      "ctr": 0.051927591966869004,
+      "cvr": 0.04784897290548211,
+      "cac": 300.37662748837636,
+      "risk_bias": 0
+    },
+    {
+      "name": "Mindful Luxury Adventure",
+      "hook": "Stille, Sterne, Signature-Service",
+      "channel": [
+        "Social",
+        "Video"
+      ],
+      "ctr": 0.07312661274145436,
+      "cvr": 0.04686587056471068,
+      "cac": 527.532945079353,
+      "risk_bias": 0
+    },
+    {
+      "name": "Exklusiv & Club-Feeling",
+      "hook": "Nur 10 Plätze – Ultra-Privat",
+      "channel": [
+        "Social",
+        "Direct"
+      ],
+      "ctr": 0.06265946142331061,
+      "cvr": 0.039930889191922045,
+      "cac": 256.7049878085217,
+      "risk_bias": 1
+    }
+  ]
+}

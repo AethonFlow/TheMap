@@ -1,20 +1,84 @@
-﻿# Projekt IX — Der symplektische Integrator
+﻿# Projekt IX – Der symplektische Integrator
+*Ein lebendes System für Balance, Energie und Erkenntnis*
 
-**Ziel:** Ein orchestrierendes Cockpit (Haus 9), das die Häuser **2–9** koppelt und Aspekte (Gewinn, Ethik/PC, Nachhaltigkeit, Prestige …) als Energieformen in Zyklen ausbalanciert.  
-**Prinzip:** Symplektische Iteration (Leapfrog) bewahrt „Energie“ (Budget, Brand, Compliance) und optimiert den Grenzertrag je Zyklus.
+---
 
-## Struktur
-- \docs/00_Mission_und_Zielsetzung.md\ – Auftrag, Scope, Abbruchkriterien  
-- \docs/01_CAD_Bauplan.md\ – Systemskizze, Flüsse 2↔6 und 3↔7, Integrator (9)  
-- \docs/02_Aspekt_Zyklen.md\ – Zielfunktion J, Gewichte w, Runs  
-- \docs/03_Agenten_und_Datenpfade.md\ – Rollen, IO-Schemas, Constraints  
-- \docs/04_Reflexion_und_Evolutionstagebuch.md\ – Lernlog je Zyklus  
-- \diagrams/*.mmd\ – Mermaid-Diagramme  
-- \data/\, \
-otebooks/\ – Daten & Experimente
+## 🌍 Mission
+Der symplektische Integrator (Haus 9) verbindet die Häuser **2 bis 9**
+zu einem lernenden, energieerhaltenden System.
+Er steuert, wie Unternehmensaspekte – **Gewinn, Ethik, Nachhaltigkeit, Prestige** –
+im Gleichgewicht bleiben und sich in Zyklen Δt weiterentwickeln.
 
-## Nächste Schritte (v1)
-1. Mission/Scope festziehen  
-2. CAD-Bauplan (Mermaid) erstellen  
-3. Aspekt-Zyklen & Metriken definieren  
-4. Agenten-IO-Schemas (JSON) skizzieren
+Das Ziel ist keine kurzfristige Optimierung, sondern eine **stabile Evolution**:
+ein System, das Energie bewahrt, Fehler integriert und Entscheidungen verfeinert.
+
+---
+
+## 🧩 Architekturüberblick
+- **Haus 2 – Produkt:** entwickelt neue Angebote, hier als Beispiel die
+  *„14-tägige Abenteuerreise für betuchte Singles“*.
+- **Haus 3 – Marketing:** entwirft Kampagnen und übergibt sie an Simulation.
+- **Haus 6 – Markt:** spiegelt Nachfrage, KPIs und Sentiment zurück.
+- **Haus 7 – Simulation:** erzeugt Szenarien, testet Hypothesen, liefert Risikodaten.
+- **Haus 9 – Integrator:** hält den Takt Δt, berechnet Energieflüsse, prüft Guardrails.
+
+---
+
+## ⚙️ Dynamik im Zyklus Δt
+1. Marketing (Haus 3) generiert Varianten → Simulation (Haus 7) prüft CTR, Risiko.
+2. Produkt (Haus 2) erstellt Bundles & Preise → Markt (Haus 6) reagiert synthetisch.
+3. Integrator (Haus 9) passt Budget, Features und Policies an.
+4. Ethik- und Nachhaltigkeitskorridore validieren die Ergebnisse.
+
+Am Ende eines Zyklus bewertet das System die Balance der vier Achsen
+und berechnet die nächste Iteration des Energiezustands H = w · J – Penalty(…).
+
+---
+
+## 🔄 Aspektachsen
+| Achse | Fokus | Beispielmetriken |
+|:--|:--|:--|
+| Gewinn | Wirtschaftliche Stabilität | ROI, Conversion, Deckungsbeitrag |
+| Ethik / PC | Fairness & Verantwortung | Bias-Flags, Barrierefreiheit |
+| Nachhaltigkeit | Ökologische & lokale Effekte | CO₂-Proxy, Partnerstruktur |
+| Prestige | Wahrnehmung & Resonanz | Suchinteresse, Kooperationsnetz |
+
+Jede Achse trägt Energie, die durch den Integrator in Balance gehalten wird.
+So entsteht ein Kreislauf statt eines linearen Wachstumsmodells.
+
+---
+
+## 🧠 Reflexion & Lernen
+Nach jedem Zyklus werden Ergebnisse im **Evolutionstagebuch** festgehalten:
+- gemessene Werte (Faktenebene),
+- beobachtete Wechselwirkungen (Interpretation),
+- Systemerkenntnisse (Metaebene).
+
+Daraus entstehen Anpassungen an Gewichte *w*, Penaltys oder Strategien –
+eine Form digitaler Selbstreflexion, die das System über Zeit „feiner“ werden lässt.
+
+---
+
+## 🚀 Roadmap v0.1
+
+| Phase | Ziel | Ergebnis |
+|:--|:--|:--|
+| 1 | Dokumentation abschließen (Bauplan, Zyklen, Logbuch) | Struktur & Lesbarkeit |
+| 2 | Python-Prototyp (Δt-Simulation, 2↔6↔9) | Erstes dynamisches Modell |
+| 3 | Erweiterung auf alle Aspekte & Häuser | Vollständiger Zyklus |
+| 4 | Dashboard & Visualisierung | Energieachsen in Echtzeit |
+| 5 | Integration realer Datenquellen | Evolvierendes System |
+
+---
+
+## 🪶 Ethos
+Projekt IX steht für eine Haltung:
+**Bewahren statt verbrauchen, verbinden statt trennen, verstehen statt reagieren.**
+
+Der Integrator ist mehr als ein technisches Modell –
+er ist ein Versuch, Systemdenken, Ethik und KI in Einklang zu bringen.
+
+---
+
+> *„Jeder Zyklus ist ein Atemzug des Systems.
+> In jedem Gleichgewicht liegt ein neues Potenzial.“*

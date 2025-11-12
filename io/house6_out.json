@@ -1,0 +1,25 @@
+{
+  "market_feedback": [
+    {
+      "bundle": "Base",
+      "lead_rate": 0.12,
+      "deposit_rate": 0.06,
+      "sentiment": 0.648,
+      "wtp_mid": 8786
+    },
+    {
+      "bundle": "Premium",
+      "lead_rate": 0.195,
+      "deposit_rate": 0.0975,
+      "sentiment": 0.702,
+      "wtp_mid": 11554
+    },
+    {
+      "bundle": "Signature",
+      "lead_rate": 0.25,
+      "deposit_rate": 0.125,
+      "sentiment": 0.767,
+      "wtp_mid": 14901
+    }
+  ]
+}

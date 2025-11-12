@@ -1,25 +1,47 @@
-﻿# Agenten & Datenpfade
+﻿# Projekt IX – Der symplektische Integrator
+## Reflexion & Evolutionstagebuch (v1)
 
-**Haus 3 (Marketing-Creator)** → Output: Positionierungen, Creatives, LP-Sektionen  
-**Haus 7 (Simulator/Analyst)** → Output: CTR/CVR/CAC-Schätzungen, Risikoindikatoren  
-**Haus 2 (Produkt)** → Output: Feature-Bundles, Preispunkte, Add-ons  
-**Haus 6 (Markt, v1 Sim)** → Output: KPIs, Sentiment-Text, Zahlungsbereitschaft  
-**Haus 9 (Integrator)** → Output: Budget-Vektor, Feature-Gewichte, Go/No-Go
+Dieses Dokument dient der fortlaufenden Beobachtung, Auswertung und Entwicklung des Systems.
+Es verbindet quantitative Analyse mit qualitativer Reflexion – jede Iteration Δt wird
+so zu einem Lernschritt innerhalb des Gesamtprozesses.
 
-**JSON-IO (v1, Skizze):**
-- /io/house3_out.json
-- /io/house7_out.json
-- /io/house2_out.json
-- /io/house6_out.json
-- /io/integrator_out.json
-"@ | Set-Content -Encoding UTF8 docs\03_Agenten_und_Datenpfade.md
+---
 
-# --- docs/04_Reflexion_und_Evolutionstagebuch.md ---
-@"
-# Evolutionstagebuch
+### Struktur jedes Eintrags
 
-## Zyklus 1
-- Hypothesen:
-- Beobachtungen:
-- Entscheidungen:
-- Änderungen für Zyklus 2:
+#### 1. Fakten-Ebene
+Numerische Ergebnisse und Messwerte des Zyklus:
+ROI, NPS, CO₂-Proxy, Bias-Flags, Markenstimmung.
+Hier werden Abweichungen und besondere Vorkommnisse notiert,
+z. B. ein hoher Prestige-Score bei sinkendem Gewinn.
+
+#### 2. Interpretations-Ebene
+Welche Dynamiken waren sichtbar?
+Wie interagierten die Häuser miteinander?
+Beispiel: *Haus 7 meldet hohe CTR-Raten, doch Haus 6 signalisiert Ethik-Flags – Verzerrung durch Zielgruppenfilter?*
+Diese Ebene formuliert Hypothesen für die nächste Iteration.
+
+#### 3. Meta-Ebene – Systemisches Lernen
+Auf dieser Ebene werden strukturelle Erkenntnisse gesammelt:
+- Welche Parameter neigen zur Instabilität?
+- Welche Gewichtung *w* führt zu harmonischeren Ergebnissen?
+- Wann muss der Integrator seine Penalty-Funktion neu kalibrieren?
+
+Jeder Zyklus endet mit einer kompakten **Lernformel**, z. B.:
+> Δw → stabiler | Ethik-Korridor zu eng | Marktmodell verzerrt
+
+---
+
+### Entwicklungsprinzip
+Das Tagebuch soll im Laufe der Zeit zu einem „Chronikbuch der Energieflüsse“ werden.
+Es zeigt, wie das System zu immer feinerer Balance findet,
+wie Entscheidungen sich anpassen, und wie Haus 9 lernt,
+die Dynamik der Häuser 2–7 integrativ zu steuern.
+
+---
+
+### Nächste Iterationen
+- Konsolidierung der ersten 3–5 Zyklen
+- Visualisierung der Energieverläufe (Radar- oder Flussdiagramm)
+- Aufbau eines Feedback-Kreises zwischen Reflexion und Aspekt-Zyklen
+- Übergang zu realen Inputdaten nach Stabilitätsnachweis

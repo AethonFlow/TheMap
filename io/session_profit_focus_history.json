@@ -1,0 +1,77 @@
+[
+  {
+    "t": 0,
+    "aspects": {
+      "gewinn": 0.514,
+      "ethik": 0.833,
+      "nachhalt": 0.6,
+      "prestige": 0.706
+    },
+    "H": 0.594,
+    "go": true,
+    "audience": 500,
+    "quality": 0.0,
+    "revenue_sum": 396700,
+    "deposits_sum": 30
+  },
+  {
+    "t": 1,
+    "aspects": {
+      "gewinn": 0.51,
+      "ethik": 0.833,
+      "nachhalt": 0.6,
+      "prestige": 0.724
+    },
+    "H": 0.593,
+    "go": true,
+    "audience": 500,
+    "quality": 0.0,
+    "revenue_sum": 396700,
+    "deposits_sum": 30
+  },
+  {
+    "t": 2,
+    "aspects": {
+      "gewinn": 0.508,
+      "ethik": 0.833,
+      "nachhalt": 0.6,
+      "prestige": 0.72
+    },
+    "H": 0.592,
+    "go": true,
+    "audience": 500,
+    "quality": 0.0,
+    "revenue_sum": 396700,
+    "deposits_sum": 30
+  },
+  {
+    "t": 3,
+    "aspects": {
+      "gewinn": 0.509,
+      "ethik": 0.833,
+      "nachhalt": 0.6,
+      "prestige": 0.709
+    },
+    "H": 0.591,
+    "go": true,
+    "audience": 500,
+    "quality": 0.0,
+    "revenue_sum": 396700,
+    "deposits_sum": 30
+  },
+  {
+    "t": 4,
+    "aspects": {
+      "gewinn": 0.513,
+      "ethik": 0.833,
+      "nachhalt": 0.6,
+      "prestige": 0.717
+    },
+    "H": 0.594,
+    "go": true,
+    "audience": 500,
+    "quality": 0.0,
+    "revenue_sum": 396700,
+    "deposits_sum": 30
+  }
+]

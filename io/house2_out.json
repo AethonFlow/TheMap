@@ -1,0 +1,24 @@
+{
+  "bundles": [
+    {
+      "name": "Base",
+      "feature_level": 0.4,
+      "price_eur": 8900
+    },
+    {
+      "name": "Premium",
+      "feature_level": 0.65,
+      "price_eur": 11500
+    },
+    {
+      "name": "Signature",
+      "feature_level": 0.85,
+      "price_eur": 15000
+    }
+  ],
+  "region_shortlist": [
+    "Patagonien",
+    "Island",
+    "Namibia"
+  ]
+}
