@@ -1,0 +1,16 @@
+﻿sequenceDiagram
+    autonumber
+    participant H3 as Haus 3 (Marketing)
+    participant H7 as Haus 7 (Simulation)
+    participant H2 as Haus 2 (Produkt)
+    participant H6 as Haus 6 (Markt Sim)
+    participant H9 as Haus 9 (Integrator)
+
+    H3->>H7: Kampagnenvarianten
+    H7-->>H3: CTR/CVR/CAC, Risiken
+    H3->>H2: Briefing
+    H2-->>H6: Bundles + Preise
+    H6-->>H2: KPIs + Sentiment + WTP
+    H9->>H3: Budget-/Policy-Impulse
+    H9->>H2: Feature-/Preis-Impulse
+    H9->>H6: Testplan/Stop-Regeln
